@@ -1,0 +1,14 @@
+This is an html page.
+{{ hithere }}
+<form action="{% url 'count' %}"  action="GET">
+
+  <textarea cols="40" rows=5 name="fulltext"></textarea>
+  <br />
+  <input type="submit" value="count!"></input>
+
+</form>
+<div>
+  <a href="{% url 'about' %}">
+   <button type = "submit" value="home_page">Home Page</button>
+  </a>
+<div>
